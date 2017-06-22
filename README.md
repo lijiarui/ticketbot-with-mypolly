@@ -1,38 +1,37 @@
 ## Book Flight
 
-* Request URL
+### Request URL
 http://101.201.150.169:9000/bookFlight
 
-* Method
+### Method
 get
 
-* Request body
+### Request body
 
-	* one-way ticket sample
+* one-way ticket sample
 ```json
 {
-		"isround": "false",
-		"toCity": "上海",
-		"fromDate": "2017-08-20",
-		"fromCity": "北京",
-		"toDate": "" 
-   }
+	"isround": "false",
+	"toCity": "上海",
+	"fromDate": "2017-08-20",
+	"fromCity": "北京",
+	"toDate": "" 
+}
 ```
-
-	* round-trip ticket sample
+* round-trip ticket sample
 ```json
-	{ 
-		 "isround": "true",
-		 "toCity": "上海",
-		 "fromDate": "2017-08-20",
-		 "fromCity": "北京",
-		 "toDate": "2017-08-25" 
-   }
+{ 
+	"isround": "true",
+	"toCity": "上海",
+	"fromDate": "2017-08-20",
+	"fromCity": "北京",
+	"toDate": "2017-08-25" 
+}
 ```
 
-* Response 
+### Response 
 
-	* without error 
+* without error 
 ```json
 {
     "data": [
@@ -49,11 +48,10 @@ get
     "status": 200
 }
 ```
-
-	* error
+* error
 ```json
 {
-    "error": info,
+    "error": "XXXXX",
     "status": 200
 }
 ```
@@ -61,24 +59,24 @@ get
 ## Book Train
 
 
-* Request URL
+### Request URL
 http://101.201.150.169:9000/bookTrain 
 
-* Method
+### Method
 get
 
-* Request body
+### Request body
 ```json
 {
-		"toCity": "上海",
-		"fromDate": "2017-08-20",
-		"fromCity": "北京",
-   }
+	"toCity": "上海",
+	"fromDate": "2017-08-20",
+	"fromCity": "北京",
+}
 ```
 
-* Response 
+### Response 
 
-	* without error 
+* without error 
 ```json
 {
     "data": [
@@ -106,11 +104,10 @@ get
     "status": 200
 }
 ```
-
-	* error
+* error
 ```json
 {
-    "error": info,
+    "error": "XXXXX",
     "status": 200
 }
 ```
@@ -118,25 +115,25 @@ get
 
 ## Book Hotel
 
-* Request URL
+### Request URL
 http://101.201.150.169:9000/bookHotel
 
-* Method
+### Method
 get
 
-* Request body
+### Request body
 ```json
 {
-		"city": "北京",
-		"fromDate": "2017-08-20",
-		"fromCity": "五道口",
-		"toDate": "2017-08-22" 
-   }
+	"city": "北京",
+	"fromDate": "2017-08-20",
+	"fromCity": "五道口",
+	"toDate": "2017-08-22" 
+}
 ```
 
-* Response 
+### Response 
 
-	* without error 
+* without error 
 ```json
 {
     "data": [
@@ -149,11 +146,10 @@ get
     "status": 200
 }
 ```
-
-	* error
+* error
 ```json
 {
-    "error": info,
+    "error": "XXXXX",
     "status": 200
 }
 ```
