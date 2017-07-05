@@ -10,13 +10,13 @@ get
 
 ```json
 {
-    depCity: "北京",
-    arrCity: "天津",
-    depDate: "2017-08-20",
-    arrDate: "",
-    lineType: "OW",
-    queryType: "jipiaoindexquery",
-    queryModule: "1"
+    "depCity": "北京",
+    "arrCity": "天津",
+    "depDate": "2017-08-20",
+    "arrDate": "",
+    "lineType": "OW",
+    "queryType": "jipiaoindexquery",
+    "queryModule": "1"
 }
 ```
 
@@ -192,7 +192,7 @@ get
         "vipLoungeFlag": 0,
         "yseatPrice": 0
     }]
-  }
+  },
    "interval": "1000",
    "isFinished": 0,
    "queryDate": "2017-07-06",
@@ -214,9 +214,9 @@ get
 ### Request body
 ```json
 {
-    start: "北京",
-    end: "上海",
-    date: "2017-07-06",
+    "start": "北京",
+    "end": "上海",
+    "date": "2017-07-06",
 }
 ```
 
@@ -264,9 +264,9 @@ get
 ### Request body
 ```json
 {
-	cityId: 53,
-    comeDate: "20170706",
-    leaveDate: "20170707",
+    "cityId": 53,
+    "comeDate": "20170706",
+    "leaveDate": "20170707",
 }
 ```
 
